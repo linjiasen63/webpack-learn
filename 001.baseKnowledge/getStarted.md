@@ -40,9 +40,19 @@ module.exports = {
 }
 ```
 
-## 5. 打包输出内容
+### 5. 打包输出内容
 
 **dist目录下**
 ```js
 // main.js
+```
+
+## # 6. 其它注意内容
+
+```bash
+# 指定配置文件
+webpack --config webpack.config.js
+
+#可以pakage.json中配置scripts然后使用npm run 命令名称，以简化运行
+npm run build
 ```
