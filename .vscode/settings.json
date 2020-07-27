@@ -1,0 +1,8 @@
+{
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'LJS', HYRunYuan, 'Inconsolata Custom', 'Fira Code Custom', 黑体",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "markdown.styles": [
+    "./md.css"
+  ],
+}
