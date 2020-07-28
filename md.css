@@ -386,6 +386,10 @@ header, .context-menu, .megamenu-content, footer{
   font-style: normal!important;
 }
 
+code * {
+  font-family: 'LJS', 'Fira Code Custom', 'Inconsolata Custom', HYRunYuan,  黑体!important;
+}
+
 body {
   background-color: #fff;
 }

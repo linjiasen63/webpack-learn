@@ -10,6 +10,6 @@ module.exports = {
   // 输出内容
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[hash:8].js'
+    filename: '[name].js'
   }
 };
