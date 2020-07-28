@@ -1,0 +1,15 @@
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #333;
+  background: #4396e2;
+  user-select: none;
+}
+
+img {
+  transform: rotate(-180deg);
+}
