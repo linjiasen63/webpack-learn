@@ -1,0 +1,12 @@
+/* 通过模块引入的样式文件，如果需要同样进行autoprefixed等样式处理（已配置），需要在css-loader中配置importLoaders */
+@import url(./global.css);
+
+
+.avatar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: auto;
+  transform: translate(-50%, -50%) scale(2);
+}
