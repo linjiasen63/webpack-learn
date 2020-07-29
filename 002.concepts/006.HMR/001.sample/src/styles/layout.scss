@@ -1,0 +1,16 @@
+body {
+  overflow-y: hidden;
+  min-height: 400px;
+
+  .header {
+    height: 88px;
+    box-shadow: 0 1px 3px #333;
+    background-color: #fff;
+  }
+
+  .content {
+    position: relative;
+    height: calc(100vh - 88px);
+    padding: 20px;
+  }
+}
