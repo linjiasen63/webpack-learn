@@ -1,11 +1,38 @@
 {
-  
+  // 1. 业务开发配置
+  // "presets": [
+  //   [
+  //     "@babel/preset-env",
+  //     {
+  //       "useBuiltIns": "usage"
+  //     }
+  //   ]
+  // ],
+
+  // 2. 类库开发配置
+  // 若polyfill相关api时，以闭包的形式，不会污染全局变量
+  // "plugins": [
+  //   [
+  //     "@babel/plugin-transform-runtime",
+  //     {
+  //       "absoluteRuntime": false,
+  //       "corejs": 2, // 是否需要polyfill
+  //       "helpers": true,
+  //       "regenerator": true,
+  //       "useESModules": false,
+  //       "version": "7.0.0-beta.0"
+  //     }
+  //   ]
+  // ]
+
+  // 3. react配置
   "presets": [
     [
       "@babel/preset-env",
       {
         "useBuiltIns": "usage"
       }
-    ]
+    ],
+    "@babel/preset-react"
   ]
 }
