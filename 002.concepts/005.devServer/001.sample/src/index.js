@@ -1,3 +1,6 @@
+
+import axios from 'axios';
+
 import './styles/index.css';
 import './styles/layout.scss';
 import avatarModuleCSS from './styles/avatar.module.css';
@@ -15,3 +18,7 @@ avatar2.classList.add(avatarModuleCSS.avatar);
 avatar2.src = avatarIMG;
 rootEle.appendChild(avatar2);
 
+
+axios.get('/api/auth/login').then(() => {
+  
+});

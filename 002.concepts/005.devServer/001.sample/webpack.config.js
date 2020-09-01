@@ -9,6 +9,7 @@ module.exports = {
   entry: {
     main: "./src/index.js",
   },
+  // 具体配置请查阅官方文档
   devServer: {
     // 指定上下文所在目录
     contentBase: 'dist',
@@ -16,6 +17,17 @@ module.exports = {
     open: true,
     // 指定网页的的端口
     port: 9000,
+    // 使用history模式时需要使用此配置，另高级的配置请查阅文档（可以为对象）
+    historyApiCallback: true,
+    proxy: {
+      '/api': {
+        target: 'https://baidu.com',
+        // 关闭安全检查（如将请求转发到https）
+        secure: false,
+        // 某些网站限制orgin，因此需配置
+        changeOrigin: true,
+      }
+    }
   },
   module: {
     rules: [
