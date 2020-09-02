@@ -1,0 +1,19 @@
+{
+  "name": "003.packLike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/parser": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/traverse": "^7.11.5"
+  }
+}
