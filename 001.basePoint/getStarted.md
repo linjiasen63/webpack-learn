@@ -1,14 +1,15 @@
+# 基础知识
 
-### 1. webpack是什么？
+## 1. 主要工作？
 
 答：模块打包工具（module builder）。
 
 
-### 2. 模块打包工具是什么？
+## 2. 模块打包工具？
 
-答：
+答：将逻辑抽离成单独的功能，尽量做到互不影响。在打包工具看来，一切皆模块，比如样式文件、图片资源等。
 
-### 3. webpack安装方式
+## 3. 安装方式
 
 ```bash
 #全局安装（强烈禁止）
@@ -22,9 +23,10 @@ cd projectDir
 npm install webpack webpack-cli
 ```
 
-### 4. 基本配置文件
+## 4. 配置文件
 
 **webpack.confg.js**
+
 ```js
 // 默认配置
 const path = require('path');
@@ -40,9 +42,10 @@ module.exports = {
 }
 ```
 
-### 5. 打包输出内容
+## 5. 输出内容
 
-**dist目录下main.js**
+**dist/main.js**
+
 ```js
 /******/ (function(modules) { // webpackBootstrap
 /******/  // The module cache
@@ -146,7 +149,7 @@ eval("console.log('你好，世界！');\n\n//# sourceURL=webpack:///./src/index
 /******/ });
 ```
 
-## # 6. 其它注意内容
+## 6. 其它内容
 
 ```bash
 # 指定配置文件

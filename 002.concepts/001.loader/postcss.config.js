@@ -8,8 +8,8 @@ module.exports = {
     autoprefixer: {
       // 谨慎：使用browsers属性配置
       // 建议：
-      //  1.在package.json中使用browserlist属性配置
-      //  2.创建配置文件browserslist.rc
+      //  1.在package.json中使用browserslist属性配置
+      //  2.创建配置文件.browserslistrc
       // 使用browserslist配置后babel、autoprefixer、postcss-normalize等会共用
       // 若一定要指定兼容浏览器，请使用 overrideBrowserslist 代替 browsers
 

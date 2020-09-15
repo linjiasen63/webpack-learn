@@ -23,7 +23,7 @@ module.exports = function(content) {
   // this.callback(null, result);
 
   // 2. 异步操作
-  const callback = this.async();
+  const callback = this.async;
   setTimeout(() => {
     callback(null, result);
   }, 1000);

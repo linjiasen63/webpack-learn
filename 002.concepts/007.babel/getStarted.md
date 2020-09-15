@@ -85,7 +85,7 @@ npm install --save @babel/runtime
   ]
 }
 
-// 3. 若只执行配置上述内容将不会polyfill，需要进行以下个性
+// 3. 若只执行配置上述内容将不会polyfill，需要进行以下配置
 // corejs相应的值修改为2
 {
   "plugins": [

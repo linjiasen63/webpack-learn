@@ -10,7 +10,7 @@ module.exports = {
   devtool: 'cheap-module-eval-source-map'
 }
 
-// 生产环境：生产上不建议使用sourceMap，除非为了查找bug，因为会增加网页的加载内容与打开速度
+// 生产环境：生产上不建议使用sourceMap，除非为了查找bug，因为会增加网页的加载内容与影响见面打开速度
 module.exports = {
   mode: 'production',
   devtool: 'cheap-module-source-map'
